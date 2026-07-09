@@ -7,7 +7,7 @@ elements: [
   // nodes
   { data: { id: 'Alex' } },
   { data: { id: 'Allie' } },
-  { data: { id: 'Ronald' } },
+  { data: { id: 'Sean' } },
 
   // edges
   {
@@ -20,9 +20,9 @@ elements: [
   },
   {
     data: {
-      id: 'AlexRonald',
+      id: 'AlexSean',
       source: 'Alex',
-      target: 'Ronald',
+      target: 'Sean',
 	  interaction: 'indifferent'
     }
   },
@@ -36,24 +36,24 @@ elements: [
  },
  {
 	data: {
-		id: 'AllieRonald',
+		id: 'AllieSean',
 		source: 'Allie',
-		target: 'Ronald',
+		target: 'Sean',
 		interaction: 'indifferent'
 	}
 },
  {
 	data: {
-		id: 'RonaldAllie',
-		source: 'Ronald',
+		id: 'SeanAllie',
+		source: 'Sean',
 		target: 'Allie',
 		interaction: 'indifferent'
 	}
 },
 {
 	data: {
-		id: 'RonaldAlex',
-		source: 'Ronald',
+		id: 'SeanAlex',
+		source: 'Sean',
 		target: 'Alex',
 		interaction: 'indifferent'
 	}
