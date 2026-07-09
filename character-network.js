@@ -66,7 +66,8 @@ elements: [
 				style: {
 					shape: 'hexagon',
 					'background-color': '#c5003c',
-					label: 'data(id)'
+					label: 'data(id)',
+					'color': 'white'
 					}
 			},
 			{
@@ -76,7 +77,8 @@ elements: [
 					'line-color': '#467fa1',
 					'opacity': 0.7,
 					'curve-style': 'unbundled-bezier',
-					label: 'data(interaction)'
+					label: 'data(interaction)',
+					'color': 'white'
 				}
 			}
 		]
