@@ -65,7 +65,7 @@ elements: [
 				selector: 'node',
 				style: {
 					shape: 'hexagon',
-					'background-color': '#430A5D',
+					'background-color': '#c5003c',
 					label: 'data(id)'
 					}
 			},
@@ -73,7 +73,7 @@ elements: [
 				selector: 'edge',
 				style: {
 					width: 2,
-					'line-color': 'purple',
+					'line-color': '#467fa1',
 					'opacity': 0.7,
 					'curve-style': 'unbundled-bezier',
 					label: 'data(interaction)'
