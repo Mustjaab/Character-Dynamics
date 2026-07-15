@@ -1,5 +1,5 @@
 
-function produce(value){
+function produce(){
 
 const source1 = document.getElementById('source1').value;
 const target1 = document.getElementById('target1').value;
@@ -10,6 +10,12 @@ const interaction2 = document.getElementById('interaction2').value;
 const source3 = document.getElementById('source3').value;
 const target3 = document.getElementById('target3').value;
 const interaction3 = document.getElementById('interaction3').value;
+const source4 = document.getElementById('source4').value;
+const target4 = document.getElementById('target4').value; 
+const interaction4 = document.getElementById('target4').value;
+const source5 = document.getElementById('source5').value;
+const target5 = document.getElementById('target5').value;
+const interaction5 = document.getElementById('interaction5').value;
 
 var cy = cytoscape({
     container: document.getElementById('cy'),
@@ -24,7 +30,10 @@ elements: [
   { data: { id: target2 } },
   { data: { id: source3 } },
   { data: { id: target3 } },
-
+  { data: { id: source4 } },
+  { data: { id: target4 } },
+  { data: { id: source5 } },
+  { data: { id: target5 } },
   // edges
   {
     data: {
