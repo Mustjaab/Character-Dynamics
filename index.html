@@ -7,53 +7,34 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/cytoscape/3.33.2/cytoscape.min.js" integrity="sha512-6uv56djOjC5z0luhrIF0qMm+ShNYPxL4mH42VEF0hk0+CV0/+iZIqySzdSOzJWWVYulQEQvUpI/Yu3eQKB/Ngw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head> 
 <body> 
-<h1> <center> Character Networks </h1> </center> 
-
-<body>
-
-<h2> Dynamics Data </h2>
-<table id='edges-table'> 
+<center> <h1> Visualizing Character Dynamics </h1> </center>
+<table>
 <tr>
-	<th> Source </th>
-	<th> Target </th>
-	<th> Interaction </th> 
-</tr>
-	<td> Alex </td>
-	<td> Allie </td>
-	<td> likes </td>
+<th> Source </th>
+<th> Interaction </th>
+<th> Target </th>
 </tr>
 <tr>
-	<td> Allie </td>
-	<td> Alex </td>
-	<td> likes </td>
+	<td> <input id='source1' value='Alex'></input> </td>
+	<td> <input id='interaction1' value='friends with'></input> </td>
+	<td> <input id='target1' value='Allie'></input> </td>
 </tr>
 <tr>
-	<td> Alex </td>
-	<td> Sean </td>
-	<td> indifferent </td>
+	<td> <input id='source2' value='Allie'> </input></td>
+	<td> <input id='interaction2' value='friends with'></input></td>
+	<td> <input id='target2' value='Alex'></input></td>
 </tr>
 <tr>
-	<td> Allie </td>
-	<td> Sean </td>
-	<td> indifferent </td>
-</tr>
-<tr>
-	<td> Sean </td>
-	<td> Alex </td>
-	<td> indifferent </td>
-</tr>
-<tr>
-	<td> Sean </td>
-	<td> Allie </td>
-	<td> indifferent </td>
+	<td> <input id='source3' value='Alex'> </input></td>
+	<td> <input id='interaction3' value='indifferent to'></input></td>
+	<td> <input id='target3' value='Ronald'></input></td>
 </tr>
 </table>
+  
+ 
+<button onclick='produce(value)'> Produce Network </button>
 
-<h2> Dynamics Network </h2>
-<div id="cy"></div>
+<div id='cy'></div>
 
-
-
-<script src='character-network.js'> </script>
+<script src='character-network.js'></script>
 </body>
-</html>
