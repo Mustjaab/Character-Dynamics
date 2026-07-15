@@ -1,5 +1,5 @@
 
-function produce(){
+function produce(value){
 
 const source1 = document.getElementById('source1').value;
 const target1 = document.getElementById('target1').value;
@@ -58,7 +58,23 @@ elements: [
 		target: target3,
 		interaction: interaction3
 	 }
- }
+ },
+ {
+	data: {
+	id: source4+target4,
+	source: source4,
+	target: target4,
+	interaction: interaction4
+	}
+ },
+ {
+	data: {
+	id: source5+target5,
+	source: source5,
+	target: target5,
+	interaction: interaction5
+	}
+ },
 ],
 		  style: [
 			{
@@ -87,4 +103,3 @@ elements: [
 
 cy.layout({name: 'circle'}).run();
 }
-
