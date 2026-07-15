@@ -47,7 +47,6 @@ button {
 }
 
 #source1[type=text] {
-  width: 100%;
   padding: 12px;
   margin: 10px 0;
   box-sizing: border-box;
@@ -56,7 +55,6 @@ button {
 }
 
 #source2[type=text] {
-  width: 100%;
   padding: 12px;
   margin: 10px 0;
   box-sizing: border-box;
@@ -65,7 +63,6 @@ button {
 }
 
 #source3[type=text] {
-  width: 100%;
   padding: 12px;
   margin: 10px 0;
   box-sizing: border-box;
@@ -74,7 +71,6 @@ button {
 }
 
 #target1[type=text] {
-  width: 100%;
   padding: 12px;
   margin: 10px 0;
   box-sizing: border-box;
@@ -83,7 +79,6 @@ button {
 }
 
 #target2[type=text] {
-  width: 100%;
   padding: 12px;
   margin: 10px 0;
   box-sizing: border-box;
@@ -92,7 +87,6 @@ button {
 }
 
 #target3[type=text] {
-  width: 100%;
   padding: 12px;
   margin: 10px 0;
   box-sizing: border-box;
@@ -101,7 +95,6 @@ button {
 }
 
 #interaction1[type=text] {
-  width: 100%;
   padding: 12px;
   margin: 10px 0;
   box-sizing: border-box;
@@ -110,7 +103,6 @@ button {
 }
 
 #interaction2[type=text] {
-  width: 100%;
   padding: 12px;
   margin: 10px 0;
   box-sizing: border-box;
@@ -118,8 +110,8 @@ button {
   border-bottom: 1px solid red;
 }
 
-#niteraction3[type=text] {
-  width: 100%;
+#interaction3[type=text] {
+
   padding: 12px;
   margin: 10px 0;
   box-sizing: border-box;
