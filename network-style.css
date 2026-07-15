@@ -43,4 +43,86 @@ button {
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
+  font-family: 'Courier New';
+}
+
+#source1[type=text] {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 1px solid red;
+}
+
+#source2[type=text] {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 1px solid red;
+}
+
+#source3[type=text] {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 1px solid red;
+}
+
+#target1[type=text] {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 1px solid red;
+}
+
+#target2[type=text] {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 1px solid red;
+}
+
+#target3[type=text] {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 1px solid red;
+}
+
+#interaction1[type=text] {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 1px solid red;
+}
+
+#interaction2[type=text] {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 1px solid red;
+}
+
+#niteraction3[type=text] {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 1px solid red;
 }
