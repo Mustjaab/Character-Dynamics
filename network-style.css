@@ -10,7 +10,7 @@ body {
 	float: left;
 }
 
-table {
+#character-table {
   font-family: "Courier New";
   border-collapse: collapse;
   width: 100%;
