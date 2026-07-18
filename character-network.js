@@ -106,7 +106,7 @@ cy.layout({name: 'circle'}).run();
 
 function myCreateFunction() {
   var table = document.getElementById("character-table");
-  var row = table.insertRow(5);
+  var row = table.insertRow(6);
   var cell1 = row.insertCell(0);
   var cell2 = row.insertCell(1);
   var cell3 = row.insertcell(2);
@@ -116,5 +116,5 @@ function myCreateFunction() {
 }
 
 function myDeleteFunction() {
-  document.getElementById("character-table").deleteRow(5);
+  document.getElementById("character-table").deleteRow(6);
 }
