@@ -16,6 +16,9 @@ const interaction4 = document.getElementById('target4').value;
 const source5 = document.getElementById('source5').value;
 const target5 = document.getElementById('target5').value;
 const interaction5 = document.getElementById('interaction5').value;
+const source6 = document.getElementById('source6').value;
+const interaction6 = document.getElementById('interaction6').value;
+const target6 = document.getElementById('target6').value;
 
 var cy = cytoscape({
     container: document.getElementById('cy'),
@@ -75,6 +78,14 @@ elements: [
 	interaction: interaction5
 	}
  },
+{
+	data: {
+		id: source6+target6,
+		source: source6,
+		target: target6,
+		interaction: interaction6
+	}
+}
 ],
 		  style: [
 			{
