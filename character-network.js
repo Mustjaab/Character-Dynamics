@@ -37,6 +37,8 @@ elements: [
   { data: { id: target4 } },
   { data: { id: source5 } },
   { data: { id: target5 } },
+  { data: { id: source6 } },
+  { data: { id: target6 } },
   // edges
   {
     data: {
